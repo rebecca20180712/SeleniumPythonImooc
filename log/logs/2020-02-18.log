@@ -1,0 +1,6 @@
+2020-02-18 11:57:15,621 20:INFO-->first_case.py-->first_case-->setUp-->19:打开谷歌浏览器
+2020-02-18 11:57:34,434 20:INFO-->first_case.py-->first_case-->setUp-->22:打开注册页面
+2020-02-18 11:57:36,570 20:INFO-->first_case.py-->first_case-->test_login_email_error-->56:验证邮箱输入错误是否有提示信息
+2020-02-18 11:57:46,120 20:INFO-->first_case.py-->first_case-->setUp-->19:打开谷歌浏览器
+2020-02-18 11:57:59,427 20:INFO-->first_case.py-->first_case-->setUp-->22:打开注册页面
+2020-02-18 11:58:01,568 20:INFO-->first_case.py-->first_case-->test_login_username_error-->67:验证用户名输入错误是否有提示信息
