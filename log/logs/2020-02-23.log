@@ -175,3 +175,15 @@
 2020-02-23 12:28:03,490 20:INFO-->first_case.py-->first_case-->setUp-->26:打开注册页面
 2020-02-23 12:28:14,807 20:INFO-->first_case.py-->first_case-->setUp-->23:打开谷歌浏览器
 2020-02-23 12:28:31,670 20:INFO-->first_case.py-->first_case-->setUp-->26:打开注册页面
+2020-02-23 12:43:21,177 20:INFO-->first_case.py-->first_case-->setUp-->23:打开谷歌浏览器
+2020-02-23 12:43:34,734 20:INFO-->first_case.py-->first_case-->setUp-->26:打开注册页面
+2020-02-23 12:43:36,888 20:INFO-->first_case.py-->first_case-->test_login_email_error-->62:验证邮箱输入错误是否有提示信息
+2020-02-23 12:43:46,330 20:INFO-->first_case.py-->first_case-->setUp-->23:打开谷歌浏览器
+2020-02-23 12:44:05,723 20:INFO-->first_case.py-->first_case-->setUp-->26:打开注册页面
+2020-02-23 12:44:07,861 20:INFO-->first_case.py-->first_case-->test_login_username_error-->73:验证用户名输入错误是否有提示信息
+2020-02-23 12:46:26,055 20:INFO-->first_case.py-->first_case-->setUp-->23:打开谷歌浏览器
+2020-02-23 12:46:44,861 20:INFO-->first_case.py-->first_case-->setUp-->26:打开注册页面
+2020-02-23 12:46:47,003 20:INFO-->first_case.py-->first_case-->test_login_email_error-->62:验证邮箱输入错误是否有提示信息
+2020-02-23 12:46:56,427 20:INFO-->first_case.py-->first_case-->setUp-->23:打开谷歌浏览器
+2020-02-23 12:47:09,676 20:INFO-->first_case.py-->first_case-->setUp-->26:打开注册页面
+2020-02-23 12:47:11,827 20:INFO-->first_case.py-->first_case-->test_login_username_error-->73:验证用户名输入错误是否有提示信息
