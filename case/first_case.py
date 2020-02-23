@@ -126,8 +126,8 @@ if __name__ == '__main__':
     suite = unittest.TestSuite()
     suite.addTest(FirstCase("test_login_email_error"))
     suite.addTest(FirstCase("test_login_username_error"))
-    # suite.addTest(FirstCase("test_login_password_error"))
-    # suite.addTest(FirstCase("test_login_code_error"))
+    suite.addTest(FirstCase("test_login_password_error"))
+    suite.addTest(FirstCase("test_login_code_error"))
     #wb表示以二进制的方式写文件
     f = open(file_name, 'wb')
     runner = HTMLTestRunner.HTMLTestRunner(stream=f, title="This is first report", description="This is selenium test report", verbosity=2)
