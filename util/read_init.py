@@ -7,7 +7,11 @@ class ReadIni(object):
     def __init__(self, file_name = None, node = None):
         # 初始化
         if file_name is None:
-            base_path = os.path.dirname(os.path.abspath('.'))
+            # base_path = os.path.dirname(os.path.abspath('.'))
+            # pycharm执行路径
+            # base_path = os.path.dirname(os.path.abspath('.'))
+            # jenkins执行路径
+            base_path = os.path.abspath('.')
             self.file_name = os.path.join(base_path, 'config', 'LocalElement.ini')
         else:
             self.file_name = file_name

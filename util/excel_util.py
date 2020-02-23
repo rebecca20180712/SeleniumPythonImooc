@@ -13,7 +13,7 @@ class ExcelUtil(object):
         :param index:excel的第几个sheet
         """
         if excel_path is None:
-            # 当前项目路径
+            # # 当前项目路径
             self.base_dir = os.path.dirname(os.path.abspath('.'))
             # 图片路径
             self.excel_path = os.path.join(self.base_dir, 'config', 'keyword.xls')
@@ -80,8 +80,12 @@ class ExcelUtil(object):
         time.sleep(1)
 
 if __name__ == '__main__':
-    # 当前项目路径
-    base_dir = os.path.dirname(os.path.abspath('.'))
+    # # 当前项目路径
+    # base_dir = os.path.dirname(os.path.abspath('.'))
+    # pycharm执行路径
+    # base_dir = os.path.dirname(os.path.abspath('.'))
+    # jenkins执行路径
+    base_dir = os.path.abspath('.')
     # 图片路径
     excel_path = os.path.join(base_dir, 'config', 'keyword.xls')
     ex = ExcelUtil(excel_path)
